@@ -1,0 +1,286 @@
+BODY {
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, Tahoma; 
+	font-size: 9pt;
+}
+
+.common-header {
+    background: #5BB73B;
+    height: 60px;
+    padding: 0;
+	margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+	left: 0;
+}
+
+.logo {
+	height: 60px;
+	background: url(../images/ptc_integrity_logo.png) no-repeat 0 0;
+	background-size: 180px;
+	background-position: 100% 50%;
+	margin-right: 30px;	
+}
+
+th.verticalText 
+{
+  vertical-align: bottom;
+  text-align: center;
+}
+
+span.verticalText
+{
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+P {
+	font-family: Verdana;
+	font-size: 10.0pt;
+	color: #000000;
+}
+LI.P {
+	font-family: Verdana;
+	font-size: 10.0pt;
+	color: #000000;
+}
+H1 {
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	/* font-size: 12.0pt;  */
+	color: #000000;
+}
+LI.H1 {
+	font-family: Verdana;
+	font-weight: bold;
+	/* font-size: 12.0pt; */
+	color: #000000;
+}
+h2 {
+	font-family: Verdana;
+	font-size: 10.0pt;
+	color: #000000;
+	border-bottom: Solid 1px #000000;
+	font-weight: bold;
+}
+LI.H2 {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 10.0pt;
+	color: #000000;
+}
+H3 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+LI.H3 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+H4 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+LI.H4 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+H5 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+LI.H5 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+H6 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+LI.H6 {
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10.0pt;
+	color: #000000;
+}
+A:link {
+	color: #0000ff;
+	text-decoration: underline;
+}
+A:visited {
+	color: #0000ff;
+	text-decoration: underline;
+}
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+A.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+OL,
+UL {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+P.MyStyle {
+	font-family: Arial;
+	font-size: 10.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+table { 
+	font-family: Arial, Helvetica, Tahoma; 
+	font-size: 9pt; 
+}
+table.display 
+	{
+	font-family: Arial, Helvetica, Tahoma; 
+	font-size: 9pt; 
+	/* width: 100%; */
+}
+.display td { 
+	vertical-align: top; font-size: 9pt; 
+}
+table.list { 
+	font-family: Arial, Helvetica, Tahoma; 
+	font-size: 9pt; 
+	width: 95%; 
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #333399; 
+	border-collapse: collapse; 
+	padding: 5px 5px 5px 5px; 
+}
+.list th {
+	font-size: 9pt; 
+	color: #000000; 
+	background-color: #5BB73B; 
+	border-width: 1px; 
+	border-style: solid; 
+	text-align: left; 
+	vertical-align: middle; 
+	border-color: #333399; 
+	padding: 2px 8px 2px 8px;
+}
+.list td {
+	/* background-color: #F9F7F7; */
+	vertical-align: top; 
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #333399; 
+	padding: 5px 5px 5px 5px; 
+}    
+td.bold_color {
+padding-right: 15px;
+}
+.border { border-width: 0px; border-style: solid; border-color: #333399; padding: 2px 8px 2px 8px; }
+.center { text-align: center; }
+.right { text-align: right; }
+.nowrap { white-space: nowrap; }
+.title { font-size: 16pt; color: #333399; font-weight: bold; text-align: center; }
+.date { font-size: 10pt; color: #333399; font-weight: bold; text-align: right; }
+.header { font-size: 11pt; color: #000000; text-align: center;}
+.footer { font-size: 9pt; color: #d7d7d7; text-align: right; }
+.heading1 { font-size: 11pt; color: #FFFFFF; font-weight: bold; background-color: #5BB73B; text-align: left; vertical-align: middle; white-space: nowrap; padding: 2px 8px 2px 8px; }
+.heading2 { font-size: 11pt; color: #333399; font-weight: bold; background-color: #F6E78C; }
+.heading3 { font-size: 11pt; color: #000000; font-weight: bold; background-color: #E6E6CB; }
+.heading4 { font-size: 11pt; color: #333399; font-weight: bold; background-color: #E6E6CB; }
+.heading5 { font-size: 11pt; color: #000000; font-weight: bold; background-color: #CFCF9D; }
+.heading6 { font-size: 11pt; color: #333399; font-weight: bold; background-color: #CFCF9D; }
+.heading7 { font-size: 15pt; color: #000000; font-weight: bold; background-color: #CFCF9D; }
+.heading8 { font-size: 10pt; color: #000000; font-weight: bold; text-align: center; background-color: #F5EFCA; }
+.heading9 { font-size: 10pt; color: #000000; font-weight: bold; background-color: #F6E78C; }
+.grouping1 { font-size: 10pt; color: #333399; font-weight: bold; background-color: #CFCF9D; }
+.grouping2 { font-size: 10pt; color: #000000; font-weight: bold; background-color: #CFCF9D; }
+.grouping3 { font-size: 9pt; color: #333399; font-weight: bold; background-color: #E6E6CB; }
+.odd_row { background-color: #F8F3F7; }
+.even_row { background-color: #FFFBFF; }
+.bold_color { color: #333399; font-weight: bold; white-space: nowrap; }
+.bold_color_italic { color: #333399; font-weight: bold; font-style: italic; }
+.bold_color_underline { color: #333399; font-weight: bold; text-decoration: underline; }
+.hr_default { height:1px; width:100%; color: #000000; background:#000000; }
+.calendar_no_date_cell { background-color: #F3F3F3; }
+
+.list tr:nth-child(even) {background: #F5F5F5}
+.list tr:nth-child(odd) {background: #FFF}
+
+.sortable tr:nth-child(even) {background: #F5F5F5}
+.sortable tr:nth-child(odd) {background: #FFF}
+.sortable td {padding: 3px 30px 3px 8px;}
+.sortable th {padding: 8px 8px 8px 8px;}
+
+.display tr:nth-child(even) {background: #F5F5F5}
+.display tr:nth-child(odd) {background: #FFF}
+.display td {padding: 3px 3px 3px 3px;}
+.display th {padding: 5px 5px 5px 5px;}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+button:hover {background-color: #e7e7e7;}
+
+
+@media print {
+  button {
+    display: none;
+  }
+}

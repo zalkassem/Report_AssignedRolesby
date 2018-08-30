@@ -1,0 +1,19 @@
+<%description 
+    <b>Data:</b>Assigned Roles by Project<br>
+    <b>Notes:</b>This report displays a listing of Roles (Dynamic Groups) by Project, where the current user is assigned to<br>
+	Single selection recommended.
+%>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assigned Roles by Project</title>
+    </head>
+    <body>
+    <%begindetail%>
+        <script type="text/javascript">
+            window.location.href = "<%hosturl%>reports/AssignedRolesbyProject.jsp?project=<%Project%>&username=<%arg username%>"
+        </script>
+        If you are not redirected automatically, follow this link <a href='<%hosturl%>reports/AssignedRolesbyProject.jsp?project=<%Project%>&username=<%arg username%>'>Assigned Roles by Project</a>.
+    <%enddetail%>
+    </body>
+</html>

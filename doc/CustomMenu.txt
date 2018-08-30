@@ -1,0 +1,4 @@
+Name:        Assigned Roles by Project
+Program:     wscript
+Parameters:  runReport.vbs  "Assigned Roles by Project"
+Description: Opens a Report to show the Assigned Roles by Project for the current user
